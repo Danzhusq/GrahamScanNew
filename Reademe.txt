@@ -1,0 +1,9 @@
+This is a program to compute convex hull of given points. It takes into
+account of colinear points and ignores any middle points on the boundary of a
+ convex hull.
+ To run it, edit the source.txt file to contain exactly the input, any error
+ detected in the file format will be returned. Customized file is also
+ supported as long as it's under the same directory of the source.txt file.
+ Run the program, according to the prompt, input the file name, and you will
+ see the vertices on convex hull in a counter clockwise order. Degeneracy is
+ considered and handled.
